@@ -1,2 +1,11 @@
 # superfly-css-variables-colors
+
 Shared color variables
+
+## Installation
+
+See [Installation](https://github.com/superfly-css/superfly-css/#installation).
+
+## Usage
+
+See [Usage](https://github.com/superfly-css/superfly-css/#usage)
