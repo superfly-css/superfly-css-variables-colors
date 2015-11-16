@@ -1,0 +1,118 @@
+/*
+ * Copyright 2015-2016 Firefly Semantics Corporation
+ * Copyright 2015-2016 Ole Ersoy
+ * Copyright 2015-2016 superfly-css
+ * Copyright 2011-2015 Twitter, Inc.
+ */
+
+/*! bootstrap v4.0.0-alpha | MIT License | https://github.com/twbs/bootstrap/blob/master/LICENSE */
+/*! superfly-css-colors    | MIT License | https://github.com/superfly-css/superfly-css-colors/blob/master/LICENSE.md */
+
+/* =======================================
+   COLORS
+   0: Percentages used in color calculations
+   1: Spectrum of grays
+   2: Notification colors
+   3: Global style colors for links, etc.
+   --------------------------------------
+   -- Naming Conventions --
+   --------------------------------------
+   All shared color variables are prefixed with
+   `color-`.
+   All percentages are prefixed with
+   `percentage-`.
+   --------------------------------------
+    -- Weighted Color Naming System --
+   --------------------------------------
+   The spectrum of colors for grays use the
+   symbolic number weights
+   [100, 300, 400, 500, 600, 700, 900].
+
+   The notification colors use the symbolic weights
+   [100, 300, 500, 700, 900].
+   ======================================= */
+
+/* 0 */
+:root {
+  --percentage-lightest:  91%;
+  --percentage-lighter:   78%;
+  --percentage-light:     65%;
+  --percentage-median:    52%;
+  --percentage-dark:      39%;
+  --percentage-darker:    26%;
+  --percentage-darkest:   13%;
+
+  --percentage-low: 25%;
+  --percentage-high:  50%;
+
+  --percentage-link-hover: 25%;
+}
+
+/* 1 */
+:root {
+  --color-gray-base: #000;
+
+  --color-gray-lightest: color(var(--color-gray-base) lightness(var(--percentage-lightest)));
+  --color-gray-lighter:  color(var(--color-gray-base) lightness(var(--percentage-lighter)));
+  --color-gray-light:    color(var(--color-gray-base) lightness(var(--percentage-light)));
+  --color-gray:          color(var(--color-gray-base) lightness(var(--percentage-median)));
+  --color-gray-dark:     color(var(--color-gray-base) lightness(var(--percentage-dark)));
+  --color-gray-darker:   color(var(--color-gray-base) lightness(var(--percentage-darker)));
+  --color-gray-darkest:  color(var(--color-gray-base) lightness(var(--percentage-darkest)));
+
+  --color-gray-100: var(--color-gray-lightest);
+  --color-gray-300: var(--color-gray-lighter);
+  --color-gray-400: var(--color-gray-light);
+  --color-gray-500: var(--color-gray);
+  --color-gray-600: var(--color-gray-dark);
+  --color-gray-700: var(--color-gray-darker);
+  --color-gray-900: var(--color-gray-darkest);
+}
+
+/* 2 */
+:root {
+  --color-primary:         #0275d8;
+  --color-success:         #5cb85c;
+  --color-info:            #5bc0de;
+  --color-warning:         #f0ad4e;
+  --color-danger:          #d9534f;
+}
+
+:root {
+  --color-primary-100: color(var(--color-primary) whiteness(var(--percentage-high)));
+  --color-primary-300: color(var(--color-primary) whiteness(var(--percentage-low)));
+  --color-primary-500: var(--color-primary);
+  --color-primary-700: color(var(--color-primary) blackness(var(--percentage-low)));
+  --color-primary-900: color(var(--color-primary) blackness(var(--percentage-high)));
+
+  --color-success-100: color(var(--color-success) whiteness(var(--percentage-high)));
+  --color-success-300: color(var(--color-success) whiteness(var(--percentage-low)));
+  --color-success-500: var(--color-success);
+  --color-success-700: color(var(--color-success) blackness(var(--percentage-low)));
+  --color-success-900: color(var(--color-success) blackness(var(--percentage-high)));
+
+  --color-info-100: color(var(--color-info) whiteness(var(--percentage-high)));
+  --color-info-300: color(var(--color-info) whiteness(var(--percentage-low)));
+  --color-info-500: var(--color-info);
+  --color-info-700: color(var(--color-info) blackness(var(--percentage-low)));
+  --color-info-900: color(var(--color-info) blackness(var(--percentage-high)));
+
+  --color-warning-100: color(var(--color-warning) whiteness(var(--percentage-high)));
+  --color-warning-300: color(var(--color-warning) whiteness(var(--percentage-low)));
+  --color-warning-500: var(--color-warning);
+  --color-warning-700: color(var(--color-warning) blackness(var(--percentage-low)));
+  --color-warning-900: color(var(--color-warning) blackness(var(--percentage-high)));
+
+  --color-danger-100: color(var(--color-danger) whiteness(var(--percentage-high)));
+  --color-danger-300: color(var(--color-danger) whiteness(var(--percentage-low)));
+  --color-danger-500: var(--color-danger);
+  --color-danger-700: color(var(--color-danger) blackness(var(--percentage-low)));
+  --color-danger-900: color(var(--color-danger) blackness(var(--percentage-high)));
+}
+
+/* 3 */
+:root {
+  --color-text:                  var(--gray-dark);
+  --color-link:                  var(--color-primary);
+  --color-link-hover:            color(blackness(var(--link-color) var(--percentage-link-hover)));
+}
