@@ -1,0 +1,32 @@
+{
+  "name": "superfly-css-variables-colors",
+  "version": "0.0.0",
+  "description": "Shared color variables",
+  "main": "src/main/css/index.css",
+  "style": "src/main/css/index.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/superfly-css/superfly-css-variables-colors.git"
+  },
+  "keywords": [
+    "colors",
+    "superfly-css",
+    "grays",
+    "weights",
+    "primary",
+    "success",
+    "info",
+    "warning",
+    "danger",
+    "global"
+  ],
+  "author": "Ole Ersoy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/superfly-css/superfly-css-variables-colors/issues"
+  },
+  "homepage": "https://github.com/superfly-css/superfly-css-variables-colors#readme"
+}
