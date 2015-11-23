@@ -113,7 +113,7 @@
 /* 3 */
 :root {
   --color-white:                 #fff;
-  --color-text:                  var(--gray-dark);
+  --color-text:                  var(--color-gray-dark);
   --color-link:                  var(--color-primary);
   --color-link-hover:            color(blackness(var(--link-color) var(--percentage-link-hover)));
 }
