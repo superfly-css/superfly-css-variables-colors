@@ -115,6 +115,6 @@
   --color-white:                 #fff;
   --color-text:                  var(--color-gray-dark);
   --color-link:                  var(--color-primary);
-  --color-link-hover:            color(blackness(var(--link-color) var(--percentage-link-hover)));
-  --color-abbr-border:           var(--color-gray-light); 
+  --color-link-hover:            color(blackness(var(--color-link) var(--percentage-link-hover)));
+  --color-abbr-border:           var(--color-gray-light);
 }
