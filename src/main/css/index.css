@@ -114,6 +114,7 @@
 :root {
   --color-white:                   #fff;
   --color-text:                    var(--color-gray-dark);
+  --color-text-muted:              var(--color-gray-light);
   --color-link:                    var(--color-primary);
   --color-link-hover:              color(var(--color-link) blackness(var(--percentage-link-hover)));
   --color-abbr-border:             var(--color-gray-light);
