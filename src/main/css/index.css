@@ -14,6 +14,7 @@
    1: Spectrum of grays
    2: Notification colors
    3: Global style colors for links, etc.
+   4: Feedback states
    --------------------------------------
    -- Naming Conventions --
    --------------------------------------
@@ -123,4 +124,23 @@
   --color-table-background-hover:  #f5f5f5;
   --color-table-background-active: var(--color-table-background-hover);
   --color-table-border-color:      var(--color-gray-lighter);
+}
+
+/* 4 */
+:root {
+  --state-success-text:        #3c763d;
+  --state-success-background:  #dff0d8;
+  --state-success-border:      color(var(--state-success-background) blackness(5%));
+
+  --state-info-text:           #31708f;
+  --state-info-background:     #d9edf7;
+  --state-info-border:         color(var(--state-info-background) blackness(7%));
+
+  --state-warning-text:        #8a6d3b;
+  --state-warning-background:  #fcf8e3;
+  --state-warning-border:      color(var(--state-warning-background) blackness(5%));
+
+  --state-danger-text:         #a94442;
+  --state-danger-background:   #f2dede;
+  --state-danger-border:       color(var(--state-danger-background) blackness(5%));
 }
