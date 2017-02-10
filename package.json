@@ -1,9 +1,8 @@
 {
   "name": "superfly-css-variables-colors",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "Shared color variables",
   "main": "src/main/css/index.css",
-  "style": "src/main/css/index.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
