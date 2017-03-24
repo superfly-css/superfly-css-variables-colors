@@ -1,6 +1,6 @@
 {
   "name": "superfly-css-variables-colors",
-  "version": "0.0.12",
+  "version": "0.0.14",
   "description": "Shared color variables",
   "main": "src/main/css/index.css",
   "scripts": {
