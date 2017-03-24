@@ -15,6 +15,8 @@
    2: Notification colors
    3: Global style colors for links, etc.
    4: Feedback states
+   5: Superfly CSS Colors
+   6: Browser supported color names
    --------------------------------------
    -- Naming Conventions --
    --------------------------------------
@@ -143,4 +145,18 @@
   --state-danger-text:         #a94442;
   --state-danger-background:   #f2dede;
   --state-danger-border:       color(var(--state-danger-background) blackness(5%));
+}
+
+
+/* 5 */
+:root {
+  --color-neon-mustard: #e1eb10;
+  --color-soft-white: #F8F8F7;
+  --color-tomato-red: #E1332D;
+}
+
+/* 6 */
+:root {
+  --color-tomato:: tomato;
+  --color-medium-aquamarine: MediumAquamarine;
 }
