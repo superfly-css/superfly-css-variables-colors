@@ -1,6 +1,6 @@
 {
   "name": "superfly-css-variables-colors",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "description": "Shared color variables",
   "main": "src/main/css/index.css",
   "scripts": {
@@ -37,6 +37,6 @@
     "superfly-css-task-build": "^0.3.0",
     "superfly-css-task-clean": "0.0.1",
     "superfly-css-task-deploy": "0.0.1",
-    "superfly-css-task-test": "^0.3.0",
+    "superfly-css-task-test": "^0.3.0"
   }
 }
