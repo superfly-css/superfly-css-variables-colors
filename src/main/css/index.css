@@ -17,6 +17,7 @@
    4: Feedback states
    5: Superfly CSS Colors
    6: Browser supported color names
+   7: Three digit color codes
    --------------------------------------
    -- Naming Conventions --
    --------------------------------------
@@ -300,4 +301,15 @@
   --color-white-smoke: WhiteSmoke;
   --color-yellow: Yellow;
   --color-yellow-green: YellowGreen;
+}
+
+/* 7 */
+@for $a from 0 to 9 {
+    @for $b from 0 to 9 {
+          @for $c from 0 to 9 {
+            :root {
+            --color-$(a)$(b)$(c): #$(a)$(b)$(c);
+            }
+          }
+    }
 }
